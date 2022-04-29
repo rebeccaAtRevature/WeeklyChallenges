@@ -9,6 +9,8 @@ import java.util.Map;
 
 import org.junit.jupiter.api.Test;
 
+import Exceptions.NoValidBuildOrderException;
+
 class BuildOrderTest {
 	/*
 	 * Build Order: You are given a list of projects and a list of dependencies
