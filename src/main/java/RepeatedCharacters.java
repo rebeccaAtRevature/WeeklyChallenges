@@ -26,11 +26,6 @@ public class RepeatedCharacters {
 				match = false;
 			}
 		}
-		if (input.length() > output.length()) {
-			return output;
-		} else {
-			return input;
-		}
-		
+		return input.length() > output.length() ? output : input;		
 	}
 }
