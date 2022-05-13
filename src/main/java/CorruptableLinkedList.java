@@ -1,7 +1,7 @@
 
 public class CorruptableLinkedList<T> {
 	
-	// Code taken from : https://www.geeksforgeeks.org/linked-list-set-1-introduction/
+	// Code derived from : https://www.geeksforgeeks.org/linked-list-set-1-introduction/
 	Node<T> head;
 	
 	/* Linked List Node */
@@ -16,5 +16,4 @@ public class CorruptableLinkedList<T> {
 			next = null;
 		}
 	}
-
 }
